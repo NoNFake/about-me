@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="src/style.css" rel="stylesheet">
+
+
+ 
+    <title>about me</title>
+</head>
+
+<body>
+    <div class="code-editor">
+        <div class="comment">
+            #!/usr/bin/python<br><br>
+            """<br>
+            ======= about me =======<br>
+
+            summary: finding an internship of Python develper<br>
+            @author: yurii<br>
+            github: github.com/NoNFake<br>
+
+            ========================<br>
+
+            """
+        </div>
+
+        
+
+
+        <div class="code-block">
+            
+            <span class="keyword">class</span> <span class="class-name">Information</span>:
+            <div class="indent class" >
+                <div>
+                full_name: <span class="keyword">str</span> = <span class="string">"Klymenko Yurii"</span><br>
+                age: <span class="keyword">int</span> = <span class="number">20</span><br>
+                university: <span class="keyword">str</span> = <span class="string">"DUIKT"</span><br>
+                os: <span class="keyword">str</span> = <span class="string">"Arch Linux (Btrfs, systemd)"</span><br>
+                location: <span class="keyword">str</span> = <span class="string">"Kyiv"</span><br>
+                </div>
+
+            <!-- functions of class -->
+            
+
+
+            <!-- get_skills -->
+            <div class="code-block">
+                <span class="keyword">@property</span><br>
+                <span class="keyword">def</span> <span class="function-name">get_skills</span>(self):
+                <div class="indent">
+                    languages = [<span class="string">"Python"</span>, <span class="string">"html"</span>, <span
+                        class="string">"SQL"</span>]<br>
+                    tools = [<span class="string">"VSCode"</span>, <span class="string">"Burp Suite"</span>] <br>
+                    <span class="keyword">return</span> languages, tools
+                </div>
+            </div>
+
+            <!-- get_tech_stack -->
+            <div class="code-block">
+                <span class="keyword">def</span> <span class="function-name">get_tech_stack</span>(self) -> <span class="keyword">dict</span>:
+                <div class="indent">
+                    stack = {<br>
+                    <div class="dict">
+                        <span class="string">"backend"</span>:
+                        [<span class="string">"asyncio"</span>,
+                        <span class="string">"aiohttp"</span>,
+                        <span class="string">"uvloop"</span>,
+                        <span class="string">"pyrogram"</span>,
+                        <span class="string">"hydrogram"</span>,
+                        <span class="string">"aiosqlite"</span>],<br>
+                    </div>
+
+                    }<br>
+                    <span class="keyword">return</span> stack
+                </div>
+            </div>
+
+
+            <!-- soft_skills -->
+            <div class="code-block">
+                <span class="keyword">def</span> <span class="function-name">soft_skills</span>(self):
+                <div class="indent">
+                    <span class="keyword">return </span>
+                    <span class="string">"fast learner"</span>,
+                    <span class="string">"problem solver"</span>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        </div> <!-- code block of class -->        
+
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
